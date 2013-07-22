@@ -11,7 +11,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @subpackage  Metrouni Module
  */
 class Plugin_Metrouni extends Plugin {
-    
+
+    public function module_installed() {
+
+        $module = $this->attribute('slug', 'metrouni');
+
+        $query = $this->db->select('id')->where('slug', $module)->where('installed', '1')->get('modules');
+
+        if ($query->num_rows()) {
+            return true;
+        }
+
+        return false;
+    }
+
 }
 
 /* End of file plugin.php */

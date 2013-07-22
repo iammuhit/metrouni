@@ -28,3 +28,4 @@ $route['metrouni/admin/persons(/:any)?'] = 'admin_persons$1';
 $route['metrouni/admin/faculties(/:any)?'] = 'admin_faculties$1';
 $route['metrouni/admin/semesters(/:any)?'] = 'admin_semesters$1';
 $route['metrouni/admin/hours(/:any)?'] = 'admin_hours$1';
+$route['metrouni/admin'] = 'metrouni/admin/index';

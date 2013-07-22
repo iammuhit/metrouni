@@ -83,5 +83,11 @@ $lang['metrouni:semester_delete_success'] = 'The semester "%s" has been deleted.
 $lang['metrouni:semester_mass_delete_success'] = 'The semesters "%s" have been deleted.';
 $lang['metrouni:semester_delete_error'] = 'No semesters were deleted.';
 
+/* Install errors */
+$lang['metrouni:install:wrong_version']    = 'Unable to install the Metrouni module, Metrouni requires PyroCMS v2.1.5 or above';
+$lang['metrouni:install:missing_multiple'] = 'Metrouni requires the Multiple Relationships field type to operate. You can download this from <a href="https://github.com/muhit18/PyroMultiRelationships/zipball/master">here</a>';
+$lang['metrouni:install:not_installed']    = 'Please install the FireSale module before installing additional Metrouni add-ons';
+$lang['metrouni:install:no_route_access']  = 'Metrouni requires access to the system/cms/config/routes.php file. Please set the appropriate permissions and try again';
+
 /* End of file metrouni_lang.php */
 /* Location: ./modules/metrouni/language/english/metrouni_lang.php */

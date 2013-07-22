@@ -69,7 +69,7 @@ class Admin_Faculties extends Admin_Controller {
 
         $faculties = $this->faculties_m->limit($pagination['limit'])->get_all();
 
-        $this->input->is_ajax_request() and $this->template->set_layout(FALSE);
+        $this->input->is_ajax_request() and $this->template->set_layout(false);
 
         $this->template
                 ->title($this->module_details['name'])
