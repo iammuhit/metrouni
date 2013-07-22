@@ -1,3 +1,4 @@
-Metrouni
---------
-The system capable of managing versity resources.
+Metrouni Department Module
+--------------------------
+
+* Metrouni Department Management

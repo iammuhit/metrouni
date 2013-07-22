@@ -3,16 +3,16 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
- * Metrouni Person Model Class
+ * Metrouni Department Model Class
  * 
- * @package     PyroCMS\Addon\Modules\Metrouni\Models
+ * @package     PyroCMS\Addon\Modules\Metrouni_Departments\Models
  * @subpackage  Metrouni Module
  * @author      The Primitive Solution
  * @website     http://primitivesolution.com
  */
-class Persons_m extends MY_Model {
+class Departments_m extends MY_Model {
 
-    protected $_table = 'metrouni_persons';
+    protected $_table = 'metrouni_departments';
 
     public function __construct() {
         parent::__construct();
@@ -56,5 +56,5 @@ class Persons_m extends MY_Model {
 
 }
 
-/* End of file persons_m.php */
-/* Location: ./modules/metrouni/models/persons_m.php */
+/* End of file departments_m.php */
+/* Location: ./modules/metrouni_departments/models/departments_m.php */
